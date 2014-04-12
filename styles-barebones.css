@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+	font-family: 'Hammersmith One', sans-serif;
+	color: #646062;
+}
+
+.carrousel {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 118rem;
+    height: 42.6rem;
+    margin-top: 4rem;
+}
+
+    .prev, .next {
+        bottom: 42%;
+        position: relative;
+        font-size: 7rem;
+        display: inline-block;
+        color: #edeeef;
+        transition: all .3s;
+    }
+
+        .prev:hover, .next:hover {
+            color: #333;
+        }
+
+    .photo_container {
+        position: relative;
+        width: 102.4rem;
+        height: 42.6rem;
+        display: inline-block;
+        padding: 0 2.5rem;
+        overflow: hidden;
+    }
+
+        .mask {
+        }
+
+            .photo {
+                padding: 0 2.5rem;
+            }
