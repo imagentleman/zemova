@@ -1,7 +1,9 @@
 zemova
 ======
 
-An infinite circular carousel javascript plugin
+An infinite circular carousel javascript plugin.
+
+Only 485 bytes gzipped (2.1kb without minification or compression).
 
 ### Demo
 
